@@ -1,0 +1,52 @@
+# use.gitignore for sloeber
+# Dervired from review of
+# https://www.gitignore.io/
+# https://github.com/adrian/homekit/master/.gitignore
+# https://github.com/Sloeber/arduino-eclipse-plugin/blob/master/.gitignore
+# and a031_speed_gun_004 Sloeber project
+# Rev
+#200217_tr Initial
+
+
+# Eclipse housekeeping 
+    Binaries/
+    Archives/
+    includes
+    core/
+    libraries/
+    .DS_Store
+# Major eclipse definition files    
+    .settings/
+    *.prefs
+    *.xml
+    Release/
+    *.elf
+    *.o
+    *.eep
+    *.hex
+    *.cpp
+    arduino.ar
+    *.mk
+    makefile
+# CDT-specific (C/C++ Development Tooling)
+	.cproject
+### Eclipse Patch ###
+# Eclipse Core
+	.project
+    spec.d
+    .DS_Store
+# Collection of Sloeber header-line file
+# specifying includes and external functions for interface 
+# with Arduino
+    sloeber.ino.cpp
+    build
+# Specifies location of support modules.    
+    sloeber.ino.cpp.d
+# Miscellaneous content to ignore   
+    *.tmp
+    *.bak
+    *.zip
+    images/
+    Videos/
+    instructable*/
+
