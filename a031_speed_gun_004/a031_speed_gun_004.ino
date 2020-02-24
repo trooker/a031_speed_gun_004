@@ -118,7 +118,8 @@ const int sigId_led    = 3;     //Port 3 LED   OUTPUT
 const int sigId_btn    = 6;     //Port 7 btn   INPUT
 const int sigId_buz    = 5;     //Port 6 buzzer OUTPUT
 const int trigPin      = 4;     //ultrasonic sensor trigger  OUTPUT/INPUT
-//const int echoPin      = 2;   //utlrasonic sensor ping echo INPUT
+                                //    set trigPin to 2 for single OUTPUT role.
+//const int echoPin      = 4;   //utlrasonic sensor ping echo INPUT
 
 
 void showSetup()
